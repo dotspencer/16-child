@@ -10,7 +10,47 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-sixteen-child
 */
+body, p, a, h1, h2, h3, h4, h5, h6, .entry-title {
+  font-family: Roboto, Helvatica, sans-serif; }
+
+h1 {
+  font-weight: 300;
+  font-size: 2em !important; }
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5em !important; }
+
+h3 {
+  font-weight: 400;
+  font-size: 1.17em !important; }
+
+h4 {
+  font-weight: 400;
+  font-size: 1em !important; }
+
+h5 {
+  font-weight: 400;
+  font-size: 0.83em !important; }
+
+h6 {
+  font-weight: 500;
+  font-size: 0.75em !important; }
+
 body {
-  color: none; }
+  background-color: #333; }
+  body:before, body:after {
+    display: none !important; }
+
+.site-inner {
+  max-width: 1100px;
+  background-color: white; }
+
+#page {
+  background: none; }
+
+#masthead {
+  padding: 0 30px;
+  background-color: whitesmoke; }
 
 /*# sourceMappingURL=style.css.map */
