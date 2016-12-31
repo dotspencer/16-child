@@ -15,7 +15,7 @@ body, p, a, h1, h2, h3, h4, h5, h6, .entry-title {
 
 h1 {
   font-weight: 300;
-  font-size: 28px !important; }
+  font-size: 30px !important; }
 
 h2 {
   font-weight: 400;
@@ -71,7 +71,7 @@ body {
 
 .widget {
   border: none; }
-  .widget p, .widget td {
+  .widget p, .widget td, .widget a, .widget div {
     font-size: 16px !important; }
 
 #site-navigation a {
@@ -90,6 +90,16 @@ body {
 
 .entry-title {
   margin-bottom: 0; }
+
+.pt-tabs .nav {
+  margin-bottom: 0; }
+.pt-tabs .nav-link {
+  color: #55595c;
+  box-shadow: none; }
+.pt-tabs ul {
+  list-style-position: inside; }
+.pt-tabs .textwidget li {
+  list-style-type: square; }
 
 @media (max-width: 56.875em) {
   .full-width {

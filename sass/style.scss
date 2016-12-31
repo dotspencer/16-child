@@ -33,7 +33,7 @@ body {
 }
 .widget {
   border: none;
-  p, td {
+  p, td, a, div {
     font-size: 16px !important;
   }
 }
@@ -56,6 +56,22 @@ body {
 }
 .entry-title {
   margin-bottom: 0;
+}
+
+.pt-tabs {
+  .nav {
+    margin-bottom: 0;
+  }
+  .nav-link {
+    color: #55595c;
+    box-shadow: none;
+  }
+  ul {
+    list-style-position: inside;
+  }
+  .textwidget li{
+    list-style-type: square;
+  }
 }
 
 @media (max-width: 56.875em) {
