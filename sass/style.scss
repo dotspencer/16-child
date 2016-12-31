@@ -3,6 +3,8 @@
 @import 'special';
 // sass --watch sass:css
 
+$content-width: 1100px;
+
 body {
   background-color: #333;
   &:after,
@@ -25,12 +27,13 @@ body {
   margin-bottom: 30px;
   // border-bottom: 1px solid lightgray;
 }
-#content{
+#content {
   padding: 0;
+  overflow: hidden;
 }
 .widget {
   border: none;
-  p{
+  p, td {
     font-size: 16px !important;
   }
 }
@@ -48,9 +51,21 @@ body {
   border-radius: 4px;
   box-shadow: 0 2px 0 #0062a5;
 }
-.full-width{
-  margin: 0 -15%;
+.full-width {
+  margin: 0 -22%;
 }
-.entry-title{
+.entry-title {
   margin-bottom: 0;
+}
+
+@media (max-width: 56.875em) {
+  .full-width {
+    margin-left: -11.5%;
+    margin-right: -34%;
+  }
+}
+@media (max-width: 44.375em) {
+  .full-width {
+    margin: 0 -9.5%;
+  }
 }

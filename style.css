@@ -44,6 +44,10 @@ a:focus {
   display: inline-block;
   width: 100px; }
 
+table.hours td:nth-child(1) {
+  font-weight: 500;
+  width: 120px; }
+
 body {
   background-color: #333; }
   body:after, body:before {
@@ -62,11 +66,12 @@ body {
   margin-bottom: 30px; }
 
 #content {
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
 
 .widget {
   border: none; }
-  .widget p {
+  .widget p, .widget td {
     font-size: 16px !important; }
 
 #site-navigation a {
@@ -81,9 +86,17 @@ body {
   box-shadow: 0 2px 0 #0062a5; }
 
 .full-width {
-  margin: 0 -15%; }
+  margin: 0 -22%; }
 
 .entry-title {
   margin-bottom: 0; }
+
+@media (max-width: 56.875em) {
+  .full-width {
+    margin-left: -11.5%;
+    margin-right: -34%; } }
+@media (max-width: 44.375em) {
+  .full-width {
+    margin: 0 -9.5%; } }
 
 /*# sourceMappingURL=style.css.map */
