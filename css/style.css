@@ -15,7 +15,7 @@ body, p, a, h1, h2, h3, h4, h5, h6, .entry-title {
 
 h1 {
   font-weight: 300;
-  font-size: 2em !important; }
+  font-size: 28px !important; }
 
 h2 {
   font-weight: 400;
@@ -37,9 +37,16 @@ h6 {
   font-weight: 500;
   font-size: 0.75em !important; }
 
+a:focus {
+  outline: none; }
+
+.mw-100 {
+  display: inline-block;
+  width: 100px; }
+
 body {
   background-color: #333; }
-  body:before, body:after {
+  body:after, body:before {
     display: none !important; }
 
 .site-inner {
@@ -51,6 +58,32 @@ body {
 
 #masthead {
   padding: 0 30px;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  margin-bottom: 30px; }
+
+#content {
+  padding: 0; }
+
+.widget {
+  border: none; }
+  .widget p {
+    font-size: 16px !important; }
+
+#site-navigation a {
+  margin: 0 5px; }
+
+.current-menu-item a {
+  background-color: #007acc;
+  text-shadow: 0 0 1px black;
+  color: white !important;
+  font-weight: 400 !important;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #0062a5; }
+
+.full-width {
+  margin: 0 -15%; }
+
+.entry-title {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

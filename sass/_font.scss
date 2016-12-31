@@ -7,7 +7,7 @@ body, p, a, h1, h2, h3, h4, h5, h6, .entry-title {
 
 h1 {
   font-weight: 300;
-  font-size: 2em !important;
+  font-size: 28px !important;
 }
 h2 {
   font-weight: 400;
@@ -28,4 +28,10 @@ h5 {
 h6 {
   font-weight: 500;
   font-size: 0.75em !important;
+}
+
+a{
+  &:focus{
+    outline: none;
+  }
 }
