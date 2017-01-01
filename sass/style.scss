@@ -25,7 +25,7 @@ body {
   padding: 0 30px;
   background-color: whitesmoke;
   margin-bottom: 30px;
-  // border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 #content {
   padding: 0;
@@ -33,7 +33,7 @@ body {
 }
 .widget {
   border: none;
-  p, td, a, div {
+  p, td, a{
     font-size: 16px !important;
   }
 }

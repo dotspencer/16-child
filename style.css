@@ -63,7 +63,8 @@ body {
 #masthead {
   padding: 0 30px;
   background-color: whitesmoke;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray; }
 
 #content {
   padding: 0;
@@ -71,7 +72,7 @@ body {
 
 .widget {
   border: none; }
-  .widget p, .widget td, .widget a, .widget div {
+  .widget p, .widget td, .widget a {
     font-size: 16px !important; }
 
 #site-navigation a {
