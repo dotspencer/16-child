@@ -48,6 +48,10 @@ table.hours td:nth-child(1) {
   font-weight: 500;
   width: 120px; }
 
+.related-list {
+  background-color: whitesmoke;
+  padding: 15px; }
+
 body {
   background-color: #333; }
   body:after, body:before {
@@ -70,9 +74,12 @@ body {
   padding: 0;
   overflow: hidden; }
 
+ul {
+  list-style-position: inside; }
+
 .widget {
   border: none; }
-  .widget p, .widget td, .widget a {
+  .widget p, .widget td, .widget a, .widget li {
     font-size: 16px !important; }
 
 #site-navigation a {
@@ -97,8 +104,6 @@ body {
 .pt-tabs .nav-link {
   color: #55595c;
   box-shadow: none; }
-.pt-tabs ul {
-  list-style-position: inside; }
 .pt-tabs .textwidget li {
   list-style-type: square; }
 

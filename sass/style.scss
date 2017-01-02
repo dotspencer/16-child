@@ -31,9 +31,12 @@ body {
   padding: 0;
   overflow: hidden;
 }
+ul {
+  list-style-position: inside;
+}
 .widget {
   border: none;
-  p, td, a{
+  p, td, a, li{
     font-size: 16px !important;
   }
 }
@@ -65,9 +68,6 @@ body {
   .nav-link {
     color: #55595c;
     box-shadow: none;
-  }
-  ul {
-    list-style-position: inside;
   }
   .textwidget li{
     list-style-type: square;
