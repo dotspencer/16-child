@@ -17,14 +17,14 @@ h1 {
   font-weight: 300;
   font-size: 30px !important; }
 
-h2, #main .widget-title {
+#main h2, #main .widget-title {
   font-weight: 900;
-  font-size: 1.5em !important;
+  font-size: 1.5em;
   margin-bottom: 1em; }
 
 h3 {
   font-weight: 400;
-  font-size: 1.17em !important; }
+  font-size: 1.17em; }
 
 h4 {
   font-weight: 400;
@@ -49,9 +49,13 @@ table.hours td:nth-child(1) {
   font-weight: 500;
   width: 120px; }
 
-.related-list {
+#main .related-list {
   background-color: whitesmoke;
   padding: 15px; }
+  #main .related-list h3.widget-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.131578947em; }
 
 body {
   background-color: #333; }

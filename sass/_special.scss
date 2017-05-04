@@ -10,7 +10,13 @@ table.hours{
   }
 }
 
-.related-list{
+#main .related-list{
   background-color: whitesmoke;
   padding: 15px;
+
+  h3.widget-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.131578947em;
+  }
 }
