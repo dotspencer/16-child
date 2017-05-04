@@ -34,6 +34,9 @@ body {
 ul {
   list-style-position: inside;
 }
+#main .widget-title {
+  text-transform: none;
+}
 .widget {
   border: none;
   p, td, a, li{
