@@ -56,6 +56,8 @@ table.hours td:nth-child(1) {
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.131578947em; }
+  #main .related-list li {
+    margin-bottom: 4px; }
 
 body {
   background-color: #333; }
