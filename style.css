@@ -82,6 +82,10 @@ ul {
   .widget p, .widget td, .widget a, .widget li {
     font-size: 16px !important; }
 
+#main .entry-content, #main .entry-header {
+  margin-right: 10%;
+  margin-left: 10%; }
+
 #site-navigation a {
   margin: 0 5px; }
 
